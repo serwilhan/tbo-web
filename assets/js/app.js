@@ -1,10 +1,17 @@
-const navSlide = () => {
-    const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.nav-links');
+const menuBtn = document.querySelector('.burger');
+const navLinks = document.querySelector('.nav-links');
+let menuOpen = false;
 
-    burger.addEventListener('click', () => {
-        nav.classList.toggle('.burger-active');
-    });
-}
-
-navSlide();
+menuBtn.addEventListener('click', () => {
+    if(!menuOpen){
+        menuBtn.classList.add('active');
+        navLinks.classList.add('active');
+        menuOpen = true;
+        navLinks = true;
+    } else {
+        menuBtn.classList.remove('active');
+        navLinks.classList.remove('active');
+        menuOpen = false;
+        navLinks = false;
+    }
+});
