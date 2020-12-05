@@ -6,16 +6,24 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Logo */
+.logo a img {
+  width: auto;
+  height: 29px;
+}
+
+/* Navbar */
 nav {
   background-color: #24292e;
-  padding: 20px 75px;
+  padding: 0px 75px;
+  min-height: 11vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .nav-links {
-  width: 30%;
+  width: 25%;
   display: flex;
   justify-content: space-around;
 }
@@ -32,10 +40,16 @@ nav {
   font-weight: bold;
 }
 
-.logo a img {
-  width: auto;
-  height: 29px;
+.btn-coursework a {
+  border: 2px solid #5392cf;
+  padding: 5px 14px;
+  border-radius: 3px;
 }
+
+.btn-coursework a:hover {
+  background-color: #5392cf;
+}
+
 /* 
 .footer {
   background-color: #171c20;
@@ -49,7 +63,3 @@ nav {
   padding: 3px 9px;
   border-radius: 3px;
 } */
-
-.btn-tugas:hover {
-  background-color: #5392cf;
-}
