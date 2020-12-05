@@ -1,0 +1,55 @@
+/* #9BFDFE #5392CF #245095 #13243E  */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #24292e;
+  padding: 20px 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo a img {
+  width: auto;
+  height: 29px;
+}
+/* 
+.footer {
+  background-color: #171c20;
+  padding: 20px 75px;
+  width: 100%;
+  height: 100px;
+} */
+
+/* .btn-tugas {
+  border: 2px solid #5392cf;
+  padding: 3px 9px;
+  border-radius: 3px;
+} */
+
+.btn-tugas:hover {
+  background-color: #5392cf;
+}
