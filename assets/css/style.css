@@ -6,10 +6,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  /* overflow-x: hidden; */
-}
-
 /* Logo */
 .logo a img {
   width: auto;
@@ -26,10 +22,14 @@ nav {
   align-items: center;
 }
 
+.burger {
+  position: absolute;
+}
+
 .nav-links {
   width: 25%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .nav-links li {

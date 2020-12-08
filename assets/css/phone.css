@@ -21,6 +21,11 @@
     z-index: -1;
   }
 
+  .nav-links li {
+    height: 600px;
+    margin: 50px;
+  }
+
   .burger {
     display: flex;
     height: 20px;

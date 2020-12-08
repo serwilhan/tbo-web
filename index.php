@@ -1,3 +1,9 @@
+<?php
+
+include_once('function/helper.php');
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,6 +45,7 @@
         <!-- End of Navbar -->
 
         <!-- Content -->
+
         <!-- End of Content -->
         <!-- End of Container -->
 
